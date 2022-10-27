@@ -1,7 +1,10 @@
 <svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0_150_37)">
 <rect width="1440" height="1024" fill="white"/>
+<rect width="1440" height="1024" fill="#E7E7E7"/>
+<g style="mix-blend-mode:darken">
 <rect x="-83" y="-38" width="1649" height="1100" fill="url(#pattern0)"/>
+</g>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">

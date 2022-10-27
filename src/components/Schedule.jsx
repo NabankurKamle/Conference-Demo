@@ -13,9 +13,9 @@ const Schedule = () => {
   console.log(events[activeEventId - 1].timeManage.length);
 
   return (
-    <div id="schedule" className="w-[100vw] scheduleContainer">
+    <div id="schedule" className="w-[100vw] scheduleContainer relative">
       <Timer />
-      <div className="px-8 md:px-12 py-12 flex flex-col md:flex-row justify-center items-center md:items-start relative ">
+      <div className="px-8 md:px-12 py-12 flex flex-col md:flex-row justify-center items-center md:items-start ">
         <div className="flex flex-col justify-center items-center md:items-start md:mr-10 lg:mr-16 mb-8 md:mb-auto">
           <div className="md:w-[250px] lg:w-[300px] text-center md:text-start mb-10 ">
             <p className="font-bold text-4xl text-[#FF6767] mb-8">
