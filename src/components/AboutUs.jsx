@@ -45,7 +45,7 @@ const AboutUs = () => {
             dolorem! Molestiae aperiam ab, placeat mollitia alias ea dolor
             reprehenderit? Sequi deleniti ex similique ullam vero!
           </p>
-          <div className="w-[70%] h-[150px] flex justify-center items-center p-[2px] bg-gradient-to-br from-[#59CE8F] to-[#FF1E00] via-black ">
+          <div className="w-[70%] h-[150px] flex justify-center items-center p-[2px] bg-[#6C6C6C] ">
             <iframe
               title="Map"
               style={{ width: "100%", height: "100%" }}

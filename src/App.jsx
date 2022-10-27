@@ -2,6 +2,7 @@ import "./App.css";
 import About from "./components/About";
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Members from "./components/Members";
 import Navbar from "./components/Navbar";
@@ -21,6 +22,7 @@ function App() {
       <Sponsers />
       <AboutUs />
       <ContactUs />
+      <Footer />
     </div>
   );
 }

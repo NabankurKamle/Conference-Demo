@@ -79,7 +79,7 @@ const ContactUs = () => {
             </ul>
           </div>
         </div>
-        <div className="lg:w-[80vw] py-10 lg:absolute lg:-left-12 -bottom-32 space-y-5 bg-transparent backdrop-blur-sm  md:pl-12">
+        <div className="lg:w-[100vw] py-10 lg:absolute lg:-left-36 -bottom-32 space-y-5 bg-transparent backdrop-blur-[10px]  md:pl-36">
           <div className="flex items-center justify-start">
             <FontAwesomeIcon icon={faPhone} className="text-xl mr-5" />
             <span className="text-lg">+912525252525</span>
