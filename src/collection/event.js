@@ -43,7 +43,7 @@ const events = [
     timeManage: [
       {
         serial: 1,
-        time: "09:00 - 11:00",
+        time: "10:00 - 11:00",
         title: "Registration",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore odit neque hic sapiente ab soluta, maxime, beatae ipsum cum eligendi reprehenderit non numquam culpa nam!",
       },
@@ -55,19 +55,19 @@ const events = [
       },
       {
         serial: 3,
-        time: "12:00 - 14:00",
+        time: "12:00 - 13:00",
         title: "Speaker Speech",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore odit neque hic sapiente ab soluta, maxime, beatae ipsum cum eligendi reprehenderit non numquam culpa nam!",
       },
       {
         serial: 4,
-        time: "14:00 - 15:00",
+        time: "13:00 - 14:00",
         title: "Launch",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore odit neque hic sapiente ab soluta, maxime, beatae ipsum cum eligendi reprehenderit non numquam culpa nam!",
       },
       {
         serial: 5,
-        time: "15:00 - 16:00",
+        time: "14:00 - 16:00",
         title: "Final Speech",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore odit neque hic sapiente ab soluta, maxime, beatae ipsum cum eligendi reprehenderit non numquam culpa nam!",
       },
