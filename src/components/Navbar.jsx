@@ -16,10 +16,10 @@ const Navbar = () => {
   return (
     <div
       style={!displayList ? { overflow: "hidden" } : { overflow: "visible" }}
-      className="w-[100vw] space-x-3 flex items-center justify-between bg-[#000000a0] fixed top-0 py-4 px-12 sm:overflow-visible backdrop-blur-sm z-50"
+      className="w-[100vw] space-x-3 flex items-center justify-between bg-[#00000052] fixed top-0 py-4 px-12 sm:overflow-visible backdrop-blur-[10px] z-50"
     >
       <div className=" ">
-        <Link className="text-xl font-bold" to="home">
+        <Link className="" to="home">
           <img className="h-[50px]" src="/img/logo.png" alt="" />
         </Link>
       </div>
@@ -28,14 +28,14 @@ const Navbar = () => {
         style={!displayList ? { right: "-150px" } : { right: "50px" }}
         className="lg:static absolute top-[81px] transition-all duration-200"
       >
-        <ul className="flex w-[150px]  lg:w-auto flex-col lg:flex-row items-center justify-start lg:justify-between lg:space-x-6 space-y-5 lg:py-0 py-5 lg:py-auto lg:space-y-0 z-20 text-white bg-[#000000a0] lg:bg-transparent">
+        <ul className="flex w-[150px]  lg:w-auto flex-col lg:flex-row items-center justify-start lg:justify-between lg:space-x-10 space-y-5 lg:py-0 py-5 lg:py-auto lg:space-y-0 z-20 text-white bg-[#000000a0] lg:bg-transparent">
           <li>
             <Link
               spy={true}
               smooth={true}
               offset={50}
               duration={500}
-              className="font-bold text-xl cursor-pointer"
+              className="text-xl cursor-pointer hover:font-bold"
               to="home"
               onClick={closeMenu}
             >
@@ -48,7 +48,7 @@ const Navbar = () => {
               smooth={true}
               offset={-80}
               duration={500}
-              className="font-bold text-xl cursor-pointer"
+              className="text-xl cursor-pointer hover:font-bold"
               to="topics"
               onClick={closeMenu}
             >
@@ -61,7 +61,7 @@ const Navbar = () => {
               smooth={true}
               offset={-80}
               duration={500}
-              className="font-bold text-xl cursor-pointer"
+              className=" text-xl cursor-pointer hover:font-bold"
               to="schedule"
               onClick={closeMenu}
             >
@@ -74,7 +74,7 @@ const Navbar = () => {
               smooth={true}
               offset={-80}
               duration={500}
-              className="font-bold text-xl cursor-pointer"
+              className=" text-xl cursor-pointer hover:font-bold"
               to="speakers"
               onClick={closeMenu}
             >
@@ -87,7 +87,7 @@ const Navbar = () => {
               smooth={true}
               offset={-80}
               duration={500}
-              className="font-bold text-xl cursor-pointer"
+              className=" text-xl cursor-pointer hover:font-bold"
               to="committee"
               onClick={closeMenu}
             >
@@ -100,7 +100,7 @@ const Navbar = () => {
               smooth={true}
               offset={-80}
               duration={500}
-              className="font-bold text-xl cursor-pointer"
+              className=" text-xl cursor-pointer hover:font-bold"
               to="sponsers"
               onClick={closeMenu}
             >
@@ -113,7 +113,7 @@ const Navbar = () => {
               smooth={true}
               offset={-80}
               duration={500}
-              className="font-bold text-xl cursor-pointer"
+              className=" text-xl cursor-pointer hover:font-bold"
               to="aboutUs"
               onClick={closeMenu}
             >
@@ -126,7 +126,7 @@ const Navbar = () => {
               smooth={true}
               offset={-80}
               duration={500}
-              className="font-bold text-xl cursor-pointer"
+              className=" text-xl cursor-pointer hover:font-bold"
               to="contactUS"
               onClick={closeMenu}
             >
@@ -141,12 +141,6 @@ const Navbar = () => {
           className="text-xl"
           icon={!displayList ? faBars : faXmark}
         />
-      </div>
-
-      <div className=" lg:block hidden">
-        <button className="px-5 py-2 text-white bg-gradient-to-r from-[#AC1400] to-[#FF1E00] font-semibold rounded-lg ">
-          <Link to="/register">Register Now</Link>
-        </button>
       </div>
     </div>
   );

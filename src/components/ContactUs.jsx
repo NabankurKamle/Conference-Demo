@@ -17,9 +17,9 @@ const ContactUs = () => {
   return (
     <div
       id="contactUs"
-      className="px-12 py-6 flex flex-col lg:flex-row items-center lg:items-start justify-between w-[100vw] relative contactusContainer"
+      className="px-12 lg:px-36 py-6 flex flex-col lg:flex-row items-center lg:items-start justify-between w-[100vw] relative contactusContainer"
     >
-      <div className="lg:relative lg:pl-20  flex flex-col justify-start items-center lg:items-start">
+      <div className="lg:relative  flex flex-col justify-start items-center lg:items-start">
         <div className=" text-center  lg:text-start mb-10 lg:mb-36">
           <p className="text-md font-bold text-[#6C6C6C] mb-8">
             <div className="h-[14px] w-[4px] bg-[#FF6767] lg:inline-block mr-3 hidden"></div>
@@ -79,7 +79,7 @@ const ContactUs = () => {
             </ul>
           </div>
         </div>
-        <div className="lg:w-[100vw] py-10 lg:absolute lg:-left-12 -bottom-32 space-y-5 bg-transparent backdrop-blur-sm  md:pl-32">
+        <div className="lg:w-[80vw] py-10 lg:absolute lg:-left-12 -bottom-32 space-y-5 bg-transparent backdrop-blur-sm  md:pl-12">
           <div className="flex items-center justify-start">
             <FontAwesomeIcon icon={faPhone} className="text-xl mr-5" />
             <span className="text-lg">+912525252525</span>
@@ -88,8 +88,11 @@ const ContactUs = () => {
             <FontAwesomeIcon icon={faEnvelope} className="text-xl mr-5" />
             <span className="text-lg">AcademyOfTechnology@aot.edu.in</span>
           </div>
-          <div className="lg:w-[50%]">
-            <FontAwesomeIcon icon={faLocationDot} className="text-xl mr-5" />
+          <div className="lg:w-[50%] flex items-start justify-center">
+            <FontAwesomeIcon
+              icon={faLocationDot}
+              className="text-xl mr-5 inline-block"
+            />
             <span className="text-lg">
               G.T.ROAD (ADISAPTAGRAM), AEDCONAGAR HOOGHLY-712121 WEST BENGAL,
               INDIA.

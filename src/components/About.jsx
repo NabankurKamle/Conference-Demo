@@ -3,10 +3,10 @@ const About = () => {
     <>
       <div
         id="topics"
-        className="flex justify-center flex-col lg:flex-row lg:px-32 md:px-12 py-6 "
+        className="flex justify-center flex-col lg:flex-row lg:px-32 md:px-12 pt-16 "
       >
-        <div className="hidden mr-10 lg:flex items-center space-x-12">
-          <div className="flex flex-col justify-center items-center space-y-12">
+        <div className="hidden mr-10 lg:flex items-center space-x-6">
+          <div className="flex flex-col justify-center items-center space-y-6">
             <img
               className="h-[200px] rounded-xl"
               src="/img/aboutImg/picAbout1.jpg"
@@ -20,7 +20,7 @@ const About = () => {
           </div>
           <div>
             <img
-              className="h-[450px] rounded-xl"
+              className="h-[420px] rounded-xl"
               src="/img/aboutImg/picAbout3.jpg"
               alt=""
             />
@@ -32,13 +32,13 @@ const About = () => {
             ABOUT CONFERENCE
           </p>
           <p className="text-4xl font-bold md:max-w-[700px] text-[#FF6767] lg:text-start text-center">
-            WELCOME TO THE GREATEST DIGITAL INDIA CONFERENCE
+            Welcome to the greatest digital India conference
             <span
               style={{
                 webkitTextFillColor: "transparent",
-                webkitTextStroke: "1px",
+                webkitTextStroke: "0.1px",
               }}
-              className="block text-6xl text-[#59CE8F]"
+              className="block mr-2 text-6xl text-[#59CE8F]"
             >
               2022
             </span>
@@ -49,13 +49,13 @@ const About = () => {
             necessitatibus sequi magni mollitia iure minima nulla, fuga numquam
             illo eveniet?.
           </p>
-          <button className="text-md px-10 py-2 rounded-xl drop-shadow-[8px_8px_15px_rgba(0,0,0,0.45)] text-white bg-gradient-to-r from-[#AC1400] to-[#FF1E00] mb-10 font-semibold">
+          <button className="text-md px-10 py-2 rounded-xl drop-shadow-[8px_8px_15px_rgba(0,0,0,0.45)] bg-[#FF1E00] text-white mb-10 font-semibold">
             Learn More
           </button>
         </div>
       </div>
       <div className="flex items-center space-y-10 lg:space-y-0 justify-between flex-col lg:flex-row lg:px-60 md:px-12 py-6">
-        <div className="w-[200px] h-[200px] px-5 flex flex-col relative items-center justify-center rounded-2xl bg-[#59CE8F] drop-shadow-[0px_10px_5px_rgba(0,0,0,0.25)]">
+        <div className="w-[200px] h-[200px] px-5 flex flex-col relative items-center justify-center rounded-2xl bg-[#59CE8F]">
           <div className="absolute top-2 left-2">
             <img src="/img/aboutImg/logo/logoTicket.svg" alt="" />
           </div>
@@ -66,7 +66,7 @@ const About = () => {
             1500+
           </p>
         </div>
-        <div className="w-[200px] h-[200px] px-5 flex flex-col relative items-center justify-center rounded-2xl bg-[#59CE8F] drop-shadow-[0px_10px_5px_rgba(0,0,0,0.25)]">
+        <div className="w-[200px] h-[200px] px-5 flex flex-col relative items-center justify-center rounded-2xl bg-[#59CE8F]">
           <div className="absolute top-2 left-2">
             <img src="/img/aboutImg/logo/logoOffice.svg" alt="" />
           </div>
@@ -77,7 +77,7 @@ const About = () => {
             9+
           </p>
         </div>
-        <div className="w-[200px] h-[200px] px-5 flex flex-col relative items-center justify-center rounded-2xl bg-[#59CE8F] drop-shadow-[0px_10px_5px_rgba(0,0,0,0.25)]">
+        <div className="w-[200px] h-[200px] px-5 flex flex-col relative items-center justify-center rounded-2xl bg-[#59CE8F]">
           <div className="absolute top-2 left-2">
             <img src="/img/aboutImg/logo/logoMic.svg" alt="" />
           </div>
@@ -88,7 +88,7 @@ const About = () => {
             10+
           </p>
         </div>
-        <div className="w-[200px] h-[200px] px-5 flex flex-col relative items-center justify-center rounded-2xl bg-[#59CE8F] drop-shadow-[0px_10px_5px_rgba(0,0,0,0.25)]">
+        <div className="w-[200px] h-[200px] px-5 flex flex-col relative items-center justify-center rounded-2xl bg-[#59CE8F]">
           <div className="absolute top-2 left-2">
             <img src="/img/aboutImg/logo/logoAudience.svg" alt="" />
           </div>

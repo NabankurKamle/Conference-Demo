@@ -12,13 +12,16 @@ const Sponsers = () => {
         <p className="text-md font-bold text-[#6C6C6C]">
           EVENT PARTNERS & SPONSERS
         </p>
-        <p className="text-4xl font-bold text-[#FF6767]">PARTNERS & SPONSERS</p>
+        <p className="text-4xl font-bold text-[#FF6767]">Partners & sponsers</p>
         <p className="max-w-[600px] font-bold">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           Consequuntur, consequatur vero, tenetur corrupti libero necessitatibus
           sequi magni mollitia iure minima nulla, fuga numquam illo eveniet?.
           Lorem ipsum dolor sit amet.
         </p>
+        <button className="text-md px-10 py-2 rounded-xl drop-shadow-[8px_8px_15px_rgba(0,0,0,0.45)] text-white bg-[#FF1E00] mb-10 font-semibold">
+          Learn More
+        </button>
       </div>
       <div className="w-[70%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:gap-16 gap-24 sm:w-[100%] lg:w-[80%] m-auto">
         {sponsers.map((sponser) => (

@@ -12,7 +12,7 @@ const AboutUs = () => {
             <p className="text-4xl font-bold mb-5 text-white text-center lg:text-start">
               ACADEMY OF TECHNOLOGY
             </p>
-            <p className="font-bold text-sm lg:text-start">
+            <p className=" text-sm lg:text-start">
               Academy of Technology is amet consectetur adipisicing elit.
               Officiis minus accusantium facilis facere exercitationem
               blanditiis veritatis error quidem expedita, velit itaque sequi
@@ -32,9 +32,9 @@ const AboutUs = () => {
             ABOUT OUR VENUE
           </p>
           <p className="text-4xl font-bold md:max-w-[700px] text-[#FF6767] lg:text-start text-center">
-            About Us
+            About us
           </p>
-          <p className="max-w-[600px] font-bold lg:text-start text-center">
+          <p className="max-w-[600px] lg:text-start text-center">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Consequuntur, consequatur vero, tenetur corrupti libero
             necessitatibus sequi magni mollitia iure minima nulla, fuga numquam
@@ -56,7 +56,7 @@ const AboutUs = () => {
               marginwidth="0"
             ></iframe>
           </div>
-          <button className="text-md px-10 py-2 rounded-xl drop-shadow-[8px_8px_15px_rgba(0,0,0,0.45)] text-white bg-gradient-to-r from-[#AC1400] to-[#FF1E00]  font-semibold">
+          <button className="text-md px-10 py-2 rounded-xl drop-shadow-[8px_8px_15px_rgba(0,0,0,0.45)] text-white bg-[#FF1E00]  font-semibold">
             Learn More
           </button>
         </div>

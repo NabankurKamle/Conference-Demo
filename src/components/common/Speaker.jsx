@@ -16,7 +16,7 @@ const Speaker = ({ speaker }) => {
           <p className="text-xl font-semibold w-[130px] mb-1">{speaker.name}</p>
           <p className="text-sm ">{speaker.position}</p>
         </div>
-        <div className="bg-transparent backdrop-blur-md border-[1px] border-white  absolute flex items-center justify-center h-[50px] w-[60px] -right-[1px] top-1 rounded-l-full">
+        <div className="bg-transparent backdrop-blur-md border-[1px] border-[#ffffff7e]  absolute flex items-center justify-center h-[50px] w-[60px] -right-[1px] top-1 rounded-l-full">
           <FontAwesomeIcon
             className="text-3xl text-white"
             icon={speaker.profLogo}
