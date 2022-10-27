@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="w-[100vw]">
-      <div className="px-32 py-32 footerContainer relative overflow-hidden flex justify-center w-full md:h-[380px]">
+      <div className="px-5 md:px-32 py-32 footerContainer relative overflow-hidden flex justify-center w-full md:h-[380px]">
         <p
           style={{
             webkitTextFillColor: "transparent",
@@ -21,12 +21,12 @@ const Footer = () => {
             type="email"
             placeholder="your mail here"
           />
-          <button className="px-12 bg-[#59CE8F] text-lg md:absolute relative top-1 right-0 py-4 text-white rounded-full">
+          <button className="px-5 md:px-12 bg-[#59CE8F] text-lg md:absolute  top-1 right-0 py-4 text-white rounded-full">
             Register Now
           </button>
         </div>
       </div>
-      <div className="bg-[#59CE8F] px-10 py-3 flex space-x-20 text-[#004D23] font- text-lg">
+      <div className="bg-[#59CE8F] px-5 md:px-5 py-3 flex space-x-5 md:space-x-20 text-[#004D23] font- text-lg">
         <p>Terms and conditions</p>
         <p>Privacy Policy</p>
         <p>Contact us</p>

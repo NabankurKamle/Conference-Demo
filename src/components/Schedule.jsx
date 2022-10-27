@@ -80,7 +80,7 @@ const Schedule = () => {
                     <span className="font-bold">{e.time}</span>
                   </div>
                   <div className="sm:flex sm:flex-col sm:items-center sm:justify-center">
-                    <span className="font-bold md:flex items-center justify-center  h-[40px] w-[40px]  rounded-[50%] bg-[#59CE8F] text-white z-10">
+                    <span className="font-bold flex items-center justify-center  h-[40px] w-[40px]  rounded-[50%] bg-[#59CE8F] text-white z-10">
                       {e.serial}
                     </span>
                     {e.serial !==
